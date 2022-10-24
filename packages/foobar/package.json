@@ -1,6 +1,6 @@
 {
   "name": "@timngyn-poc-publish-npm/foobar",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Testing workflow for publishing to NPM",
   "main": "src/index.js",
   "scripts": {

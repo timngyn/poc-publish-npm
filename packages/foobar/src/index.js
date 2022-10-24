@@ -1,3 +1,3 @@
 export const foobar = () => {
-  console.log('foobar');
+  console.log('foobar test!');
 };
