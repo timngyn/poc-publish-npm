@@ -6,6 +6,8 @@
     "@changesets/cli": "^2.25.0"
   },
   "scripts": {
+    "changeset": "changeset",
+    "release": "changeset publish",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
