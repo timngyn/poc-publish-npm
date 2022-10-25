@@ -1,6 +1,4 @@
 name: Publish Package to npmjs
-env:
-  PACKAGE_NAME: foobar
 on:
   release:
     types: [created]
@@ -16,8 +14,8 @@ jobs:
           node-version: '16.x'
           registry-url: 'https://registry.npmjs.org'
       - run: npm ci
-        working-directory: ${GITHUB_WORKSPACE}/packages/${PACKAGE_NAME}
+        working-directory: packages/foobar
       - run: npm publish --access public
-        working-directory: ${GITHUB_WORKSPACE}/packages/${PACKAGE_NAME}
+        working-directory: packages/foobar
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
