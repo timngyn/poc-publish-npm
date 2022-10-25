@@ -1,0 +1,21 @@
+{
+  "name": "poc-publish-npm",
+  "version": "2.0.0",
+  "description": "",
+  "dependencies": {
+    "@changesets/cli": "^2.25.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timngyn/poc-publish-npm.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/timngyn/poc-publish-npm/issues"
+  },
+  "homepage": "https://github.com/timngyn/poc-publish-npm#readme"
+}
