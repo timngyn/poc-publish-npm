@@ -1,6 +1,6 @@
 {
   "name": "poc-publish-npm",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "",
   "dependencies": {
     "@changesets/changelog-github": "^0.4.7",
