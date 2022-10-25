@@ -16,8 +16,8 @@ jobs:
           node-version: '16.x'
           registry-url: 'https://registry.npmjs.org'
       - run: npm ci
-        working-direcotry: ${GITHUB_WORKSPACE}/packages/${PACKAGE_NAME}
+        working-directory: ${GITHUB_WORKSPACE}/packages/${PACKAGE_NAME}
       - run: npm publish --access public
-        working-direcotry: ${GITHUB_WORKSPACE}/packages/${PACKAGE_NAME}
+        working-directory: ${GITHUB_WORKSPACE}/packages/${PACKAGE_NAME}
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
